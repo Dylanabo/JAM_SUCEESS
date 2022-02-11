@@ -349,9 +349,15 @@ jQuery(function($){
                     // Advance player's score if it is correct
                     if( App.Host.currentCorrectAnswer === data.answer ) {
                         // Add 5 to the player's score
+                        if (App.currentRound == 0) {
+                            $('#hostWord').image('bien vu');
+                            App.doTextFit('#hostWord');
+                        }
                         $pScore.text( +$pScore.text() + 5 );
 
                         // Advance the round
+                        // sleep(5)
+                            // Do something after the sleep!
                         App.currentRound += 1;
 
                         // Prepare data to send to the server
@@ -361,7 +367,8 @@ jQuery(function($){
                         }
 
                         // Notify the server to start the next round.
-                        IO.socket.emit('hostNextRound',data);
+                        setTimeout(() => {  IO.socket.emit('hostNextRound',data); }, 5000);
+                        // IO.socket.emit('hostNextRound',data);
 
                     } else {
                         // A wrong answer was submitted, so decrement the player's score.
