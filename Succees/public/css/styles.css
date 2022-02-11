@@ -33,7 +33,7 @@ html, body {
     font-size: 2em;
     line-height: 1.2;
     text-align: center;
-    background-color: #33b4c5;
+    background-color: #8AD453;
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
@@ -43,7 +43,6 @@ html, body {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-    border-radius: 10px;
 }
 
 .btn:focus {
@@ -143,7 +142,7 @@ html, body {
     width: 200px;
     height: 60px;
     font-family: 'Quicksand', sans-serif;
-    color: #ffffff;
+    color: #A22FB0;
     font-weight: 300;
     font-size: 54px;
     border: 1px dotted white;
@@ -258,10 +257,8 @@ html, body {
 
 #playerScores {
     height: 10%;
-    width: 97%;
+    width: 100%;
     position: fixed;
-    padding-top: 30px;
-    padding-left: 30px;
     top: 0;
 }
 
@@ -284,11 +281,11 @@ html, body {
 
 .playerScore .score {
     text-align: center;
-    background-color: #c837e6;
+    background-color: #A8FF56;
 }
 
 .playerScore .playerName {
-    width: 50%;
+    width: 77%;
     background-color: #ECFFE0;
 }
 
