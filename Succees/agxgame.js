@@ -228,52 +228,52 @@ function shuffle(array) {
  */
 var wordPool = [
     {
-        "words"  : [ "sale","seal","ales","leas" ],
-        "decoys" : [ "lead","lamp","seed","eels","lean","cels","lyse","sloe","tels","self" ]
+        "words"  : [ "En France, qui est le YouTuber au plus grand succès ?", "Squeezie" ],
+        "decoys" : [ "Mister V","Michou","Swan & Néo","TiboInShape","Cyprien" ]
     },
 
     {
-        "words"  : [ "item","time","mite","emit" ],
-        "decoys" : [ "neat","team","omit","tame","mate","idem","mile","lime","tire","exit" ]
+        "words"  : [ "Lequel de ces jeux-vidéos a le plus de succès dans le monde ?", "Minecraft" ],
+        "decoys" : [ "Fortnite","Roblox","GTA 5","CS : GO","League of legends" ]
     },
 
     {
-        "words"  : [ "spat","past","pats","taps" ],
-        "decoys" : [ "pots","laps","step","lets","pint","atop","tapa","rapt","swap","yaps" ]
+        "words"  : [ "Quelle boisson reçoit le plus de succès en France ?", "Coca-Cola" ],
+        "decoys" : [ "Cristaline","Perrier","Oasis","Lipton","Scheweppes" ]
     },
 
     {
-        "words"  : [ "nest","sent","nets","tens" ],
-        "decoys" : [ "tend","went","lent","teen","neat","ante","tone","newt","vent","elan" ]
+        "words"  : [ "Dans un battle royale, qui a le plus de chances de vaincre ses adversaires avec succès ?", "Gorille" ],
+        "decoys" : [ "Girafe","Crocodile","Chat sauvage","Loup","Coq de combat" ]
     },
 
     {
-        "words"  : [ "pale","leap","plea","peal" ],
-        "decoys" : [ "sale","pail","play","lips","slip","pile","pleb","pled","help","lope" ]
+        "words"  : [ "Quel buteur a eu le plus de succès dans le football ?", "Cristiano Ronaldo" ],
+        "decoys" : [ "Robert Lewandowski","Romaria","Lionel Messi","Joseph Bican","Pelé" ]
     },
 
     {
-        "words"  : [ "races","cares","scare","acres" ],
-        "decoys" : [ "crass","scary","seeds","score","screw","cager","clear","recap","trace","cadre" ]
+        "words"  : [ "Quelle est la personne avec le meilleur succès financier au monde ?", "Elon Musk" ],
+        "decoys" : [ "Bernard Arnault","Bill Gates","Mark Zuckerberg","Françoise Bettencourt Meyers","Jeff Bezos" ]
     },
 
     {
-        "words"  : [ "bowel","elbow","below","beowl" ],
-        "decoys" : [ "bowed","bower","robed","probe","roble","bowls","blows","brawl","bylaw","ebola" ]
+        "words"  : [ "Lequel de ces films à reçu le plus grand succès au cinéma ?", "Autant en emporte le vent" ],
+        "decoys" : [ "Avatar","Titanic","Les dents de la mer","Blanche neige et les sept nains","Star Wars EP IV : Un nouvel espoir" ]
     },
 
     {
-        "words"  : [ "dates","stead","sated","adset" ],
-        "decoys" : [ "seats","diety","seeds","today","sited","dotes","tides","duets","deist","diets" ]
+        "words"  : [ "Qui a le plus de succès avec Shaco ?", "Fireclem" ],
+        "decoys" : [ "Kyrie","OneSplifOneGame","Taguel","Upersky","LOL ME DETRUIT" ]
     },
 
     {
-        "words"  : [ "spear","parse","reaps","pares" ],
-        "decoys" : [ "ramps","tarps","strep","spore","repos","peris","strap","perms","ropes","super" ]
+        "words"  : [ "Laquelle de ces sneakers a le plus de succès ?", "Nike Tanjun" ],
+        "decoys" : [ "Adidas Yeezy Boost 350 v2","Nike Air Jordan 1","Nike Air Max 270","Vans Authentic","Adidas Stan Smith" ]
     },
 
     {
-        "words"  : [ "stone","tones","steno","onset" ],
-        "decoys" : [ "snout","tongs","stent","tense","terns","santo","stony","toons","snort","stint" ]
+        "words"  : [ "Lequel de ces rappeurs a obtenu le plus grand succès pour la sortie de son premier album ?", "Nekfeu" ],
+        "decoys" : [ "Damso","Laylow","Orelsan","Josman","Vald","Freeze Corleone" ]
     }
 ]
