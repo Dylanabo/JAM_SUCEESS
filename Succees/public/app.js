@@ -352,7 +352,73 @@ jQuery(function($){
                     if( App.Host.currentCorrectAnswer === data.answer ) {
                         // Add 5 to the player's score
                         if (App.currentRound == 0) {
-                           // $('#hostWord').image('bien vu');
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/Squeezie.png";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 1) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/minecraft.png";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 2) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/cocacola.jpg";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 3) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/gorille.jpg";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 4) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/cr.jpg";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 5) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/elon musk.png";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 6) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/le film.jpg";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 7) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/clément.jfif";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 8) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/nike.jfif";
+                            App.doTextFit('#hostWord');
+                        }
+                        if (App.currentRound == 9) {
+                            // var img = document.createElement("IMG");
+                            // img.src = "img/cocacola.jpg";
+                        //    $('#hostWord').src="./img/cocacola.jpg";
+                           document.getElementById("myImg").src = "./img/nekfeu.jpg";
                             App.doTextFit('#hostWord');
                         }
                         $pScore.text( +$pScore.text() + 5 );
@@ -369,7 +435,7 @@ jQuery(function($){
                         }
 
                         // Notify the server to start the next round.
-                        setTimeout(() => {  IO.socket.emit('hostNextRound',data); }, 5000);
+                        setTimeout(() => {  IO.socket.emit('hostNextRound',data); document.getElementById("myImg").src = "./img/Capture.PNG";}, 5000);
                         //IO.socket.emit('hostNextRound',data);
 
                     } else {
