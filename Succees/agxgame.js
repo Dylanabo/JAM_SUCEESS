@@ -130,6 +130,7 @@ function playerAnswer(data) {
     // The player's answer is attached to the data object.  \
     // Emit an event with the answer so it can be checked by the 'Host'
     io.sockets.in(data.gameId).emit('hostCheckAnswer', data);
+    console.log(data)
 }
 
 /**
@@ -172,8 +173,8 @@ function getWordData(i){
     // Randomize the order of the available words.
     // The first element in the randomized array will be displayed on the host screen.
     // The second element will be hidden in a list of decoys as the correct answer
-    var words = shuffle(wordPool[i].words);
-
+    var words = wordPool[i].words;
+    
     // Randomize the order of the decoy words and choose the first 5
     var decoys = shuffle(wordPool[i].decoys).slice(0,5);
 
@@ -188,7 +189,7 @@ function getWordData(i){
         answer : words[1], // Correct Answer
         list : decoys      // Word list for player (decoys and answer)
     };
-
+    console.log(wordData)
     return wordData;
 }
 

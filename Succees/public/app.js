@@ -89,6 +89,7 @@ jQuery(function($){
          * @param data
          */
         hostCheckAnswer : function(data) {
+            console.log("data check");
             if(App.myRole === 'Host') {
                 App.Host.checkAnswer(data);
             }
@@ -341,6 +342,7 @@ jQuery(function($){
                 // Verify that the answer clicked is from the current round.
                 // This prevents a 'late entry' from a player whos screen has not
                 // yet updated to the current round.
+                console.log("data", data.round, App.currentRound)
                 if (data.round === App.currentRound){
 
                     // Get the player's score
@@ -350,7 +352,7 @@ jQuery(function($){
                     if( App.Host.currentCorrectAnswer === data.answer ) {
                         // Add 5 to the player's score
                         if (App.currentRound == 0) {
-                            $('#hostWord').image('bien vu');
+                           // $('#hostWord').image('bien vu');
                             App.doTextFit('#hostWord');
                         }
                         $pScore.text( +$pScore.text() + 5 );
@@ -368,7 +370,7 @@ jQuery(function($){
 
                         // Notify the server to start the next round.
                         setTimeout(() => {  IO.socket.emit('hostNextRound',data); }, 5000);
-                        // IO.socket.emit('hostNextRound',data);
+                        //IO.socket.emit('hostNextRound',data);
 
                     } else {
                         // A wrong answer was submitted, so decrement the player's score.
