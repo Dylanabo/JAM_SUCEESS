@@ -323,9 +323,7 @@ html, body {
     height: 50px;
 }
 
-.image {
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#image {
+    text-align: center;
+    padding-top: 50%;
 }
