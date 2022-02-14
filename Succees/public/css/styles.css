@@ -229,6 +229,7 @@ html, body {
 /* Absolute Centering: http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/ */
 #wordArea {
     font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
     font-weight: 400;
     position: absolute;
     height: 50%;
@@ -326,4 +327,10 @@ html, body {
 #image {
     text-align: center;
     padding-top: 50%;
+}
+
+#citation {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 40%;
 }
